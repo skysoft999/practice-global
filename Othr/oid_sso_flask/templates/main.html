@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div class="center-align">
+      <div class="row">
+        <div class="col s6 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="/static/images/loggin.png"/>
+              <span class="blue card-title">Logged In State</span>
+            </div>
+            <div class="card-content">
+              <p>Congrats, You can acccess Biofourmis Services Now.</p>
+              <p>Your Logged in Email Id is: {{email}}</p>
+            </div>
+            
+            <div class="card-action">
+              <a class="pulse" href="/private">Go to biofourmis Service</a>
+              <a class="pulse" href="/logout">Logout</a>
+
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
